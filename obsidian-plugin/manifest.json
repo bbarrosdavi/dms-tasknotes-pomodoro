@@ -1,0 +1,9 @@
+{
+  "id": "tasknotes-dms-bridge",
+  "name": "TaskNotes DMS Bridge",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Integration bridge between TaskNotes Pomodoro and Dank Material Shell",
+  "author": "Davi",
+  "isDesktopOnly": true
+}

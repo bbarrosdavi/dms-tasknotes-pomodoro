@@ -1,0 +1,13 @@
+// TaskNotes Pomodoro Floating Window Configuration for Niri (Wayland)
+// Enables GPU blurred background and default floating dimensions
+window-rule {
+    match title=r#"^Pomodoro - TaskNotes"#
+    open-floating true
+    default-column-width { fixed 360; }
+    default-window-height { fixed 280; }
+    geometry-corner-radius 10
+    clip-to-geometry true
+    background-effect {
+        blur true
+    }
+}

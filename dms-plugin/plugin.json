@@ -1,0 +1,23 @@
+{
+  "id": "tasknotesPomodoro",
+  "name": "TaskNotes Pomodoro",
+  "description": "Integração do Pomodoro do Obsidian TaskNotes com janela flutuante fosca e pill na barra",
+  "version": "1.0.0",
+  "author": "Davi",
+  "icon": "timer",
+  "type": "composite",
+  "capabilities": [
+    "dankbar-widget",
+    "daemon"
+  ],
+  "components": {
+    "daemon": "./PomodoroDaemon.qml",
+    "widget": "./PomodoroBarWidget.qml"
+  },
+  "settings": "./PomodoroSettings.qml",
+  "requires_dms": ">=1.5.0",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
